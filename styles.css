@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+style> body {
+  margin: 1cm;
+  font-family: system-ui, sans-serif;
+  color: black;
+  border: 1cm;
+  background-image: url('https://github.com/savvy-coders/unit-11-final-project-GregCarter1/blob/aae3cb01de3f8b446439c5f1901cd9ed87aec418/JacksonHoleWY.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+style > 
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-size: small;
+}
+.outdoors {
+  background-color: antiquewhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-color: black;
+}
+div {
+  outline-style: solid;
+  outline-width: thin;
+}
+
+.savvy {
+  font-size: 30px;
+}
+#main {
+  color: red;
+}

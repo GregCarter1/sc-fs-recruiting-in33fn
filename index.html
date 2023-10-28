@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wild Life</title>
+    <style>
+      body {
+        background-image: url("JacksonHoleWY.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body 
+  <div style="background-image: url('C:\Users\carte\Pictures\JacksonHoleWY.jpg');">
+    <h1>Greg's Wild Life Information Page</h1>
+
+    <div class="outdoors" id="main">
+      <label for="toggle" class="toggle.btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <nav class="navigation">
+        <li>Hiking</li>
+        <li>Skiing</li>
+        <li>Hunting</li>
+        <li>Fishing</li>
+        <li>Boating</li>
+      </nav>
+      
+      <h2>Wild Life Manangement</h2>
+      <p>Through the effective management of wildlife and habitat, MassWildlife ensures quality outdoor recreational opportunities for hunters, anglers, and outdoor enthusiasts who enjoy the impressive variety of plants, fish, and wildlife found in Massachusetts. Outdoor skills clinics, wildlife education workshops, presentations, and online resources provide all residents with a greater understanding and appreciation for wildlife conservation. Keep in touch with us</p>
+    </div>
+    <div>Hunting/Fishing License Request
+    <form>
+      <form id= 'hunting licence'> 
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="First and Last Name" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name='age' min='14' max='99' required>
+      <label for="hunter safety">Hunter Safety</label>
+      <input type="number" id="hunter Safety" name="hunter Safety" required></form>
+
+      <input type="submit" value="Submit"></form>
+      </div>
+      <div>
+        <h2>Recreation Information Request</h2>
+      <form>
+      <form id="Recration Inf Request">
+        <label for="Activities"></label>
+        <input type="checkbox" name="activities" value="hinking"> Hiking
+        <input type="checkbox" name="activities" value="skiing"> Skiing
+        <input type="checkbox" name="activities" value="hunting">Hunting
+        <input type="checkbox" name="activities" value="fishing">Fishing
+        <input type="checkbox" name="activities" value="boating">Boating
+      
+        <input type="submit" value="Submit">
+      </form>  
+      </div>
+      <div>
+        <h3>Report Violations</h3>
+        <form>
+          <form id="report violation">
+            <label for="violations"></label>
+            <input type="date" id="date" name="Violation date" placeholder="mm/dd/yyyy">
+            <label for="viloation">Violation:</label>
+            <textarea id="violation" name="violation" placeholder="description of violation" rows="5" cols="50"></textarea>
+            <input type="submit" value="Submit">
+      </div>
+      <footer>
+        <h5>Contact informaton</h5>
+        <ul></ul>
+          <li>email: wildlifeinfo@fakemail.com</li>
+          <li>Phone: 777-555-444</li>
+          <li>Address: 123 Fake St, Not Real, MA</li>
+          <li>Hours of Operations: 9:00am - 5:00pm, Mon-Fri</li>
+      </footer>
+  </body>
+</html>
